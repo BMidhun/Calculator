@@ -1,0 +1,48 @@
+                    <div className="calc-row">
+                    <CalcButton value={0}/>
+                    <CalcButton value={1}/>
+                    <CalcButton value={2}/>
+                    <CalcButton value={3}/>
+                    
+                    </div>
+
+                    <div className="calc-row">
+
+                    <CalcButton value={4}/>
+                    <CalcButton value={5}/>
+                    <CalcButton value={6}/>
+                    <CalcButton value={7}/>
+
+                    </div>
+
+                    <div className="calc-row">
+                    <CalcButton value={8}/>
+                    <CalcButton value={9}/>
+                    <CalcButton value={10}/>
+                    <CalcButton value={11}/>
+                    
+                    </div>
+
+[1]                  7+2=
+[+,*]
+
+25+5*3-4    
+[25,5,3,4]
+[4,3,5,25]
+[+,*,-]                 [7,2] [+] 
+
+                      10+9-8*2 = 
+
+                      [10,9,8,2]
+                      [+,-,*]
+                      [19,8,2]
+                      [-,*]
+                      []
+
+1+2-3*4/5
+[1,2,3,4,5]
+[+,-,*,/]
+[3,3,4,5]
+[-,*,/]
+[0,4,5,6]
+[*,/]
